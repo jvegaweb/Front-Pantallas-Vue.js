@@ -1,0 +1,531 @@
+/* MAIN CSS AJUSTES */
+
+body {
+    background-color: #06142A;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* BOX CARD */
+
+.estadoproyecto {
+    background-color: #3e8acc !important;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 200px;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+.sombre {
+    background: #ffffff;
+    border-color: #B6B6B6;
+    border-top: solid 0px #B6B6B6;
+    transition: 0.3s;
+    line-height: 12px;
+}
+
+.sobre:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    z-index: 1000;
+}
+
+.fixtitulobox {
+    margin-top: 0;
+    margin-bottom: 0px !important;
+    line-height: 13px;
+}
+
+.desdedpto {
+    padding-bottom: 15px;
+    margin-top: 10px;
+    color: #69AAE6;
+}
+
+.box-home-text .card-body {
+    background: #14223f !important;
+    color: white;
+    text-align: left;
+    min-height: 180px;
+}
+
+.card {
+    border: none
+}
+
+.colorazul {
+    color: #fff !important;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+/* EFECTO TITLE  */
+
+.box_flechas_besalco {
+    max-width: 50%;
+    margin: auto;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.box_flechas_besalco:hover {
+    max-width: 70%;
+    margin: auto;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.box_flechas_besalco a {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    letter-spacing: 0px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.box_flechas_besalco:hover a {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    letter-spacing: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.box_flechas_besalco a {
+    text-decoration: none;
+}
+
+.check_arrow_sup {
+    position: relative;
+    top: -20px;
+    left: -120px;
+}
+
+.check_arrow_inf {
+    position: relative;
+    /* top: 20px; */
+    left: 120px;
+}
+
+
+/* SECCION INVERSIONISTAS */
+
+.bg-inversionistas {
+    background-image: url(../img/bg-inversionistas.png);
+    background-size: cover;
+    min-height: 600px;
+    margin-bottom: 45px;
+}
+
+#anim-right {
+    margin-top: 85px;
+    margin-right: -30px;
+    background-color: #00000017;
+    padding: 25px;
+}
+
+.anim-right--title1 {
+    color: #fff !important;
+    font-size: 1.5em;
+}
+
+.anim-right--title2 {
+    color: #fff !important;
+    font-size: 2em;
+}
+
+#anim-inv:hover #anim-right {
+    margin-top: 120px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.img-arrow-left {
+    position: absolute;
+    margin-top: 200px;
+    opacity: 0.1;
+    transform: rotate(15deg);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+#anim-inv:hover .img-arrow-left {
+    opacity: 1;
+    transform: rotate(0deg);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+
+/* FOOTER */
+
+.footers {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    min-height: 500px;
+    padding: 25px;
+}
+
+.txt-folow {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.ul-proyecto {
+    background-color: #14223f93;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+}
+
+.tt-footer {
+    font-size: 1.2em;
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.tt-sub {
+    color: #fff;
+    text-align: left;
+    font-size: 11px;
+}
+
+.location {
+    color: #fff;
+    text-align: left;
+}
+
+.phone {
+    color: #fff;
+    text-align: left;
+}
+
+.icon-location {
+    font-size: 2rem;
+    color: white;
+    background-color: #0e1a389d;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.ul-pages {
+    list-style: none;
+}
+
+.tx-footer {
+    font-size: 11px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.tts-footers {
+    font-size: 13px;
+    color: #fff;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+/* CARD TENDENCIAS */
+
+.card-tendencia {
+    width: 100%;
+    background-color: #0A1D3A;
+}
+
+.card-body-tendencia {
+    padding: 10px;
+    min-height: 300px;
+}
+
+.img-tendencia {
+    width: 100%;
+}
+
+.sim-plus {
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: -15px;
+}
+
+.tx-tende {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.tx-tende h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: -5px;
+}
+
+.tx-tende p {
+    color: #fff;
+    font-weight: 200;
+    font-size: 1em;
+    margin-bottom: -20px;
+}
+
+#ten-box:hover .sim-plus {
+    color: #04BCA7;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+#ten-box:hover .card-tendencia {
+    border: 1px solid #04BCA7;
+    width: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.linea-efect {
+    font-size: 50px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ten-box:hover .linea-efect {
+    color: #04BCA7;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.esq-1 {
+    position: absolute;
+    left: 0;
+    padding: 25px;
+}
+
+.esq-2 {
+    position: absolute;
+    right: 0;
+    padding: 25px;
+    margin-top: -80px;
+}
+
+.btn-line-rosa {
+    background-color: #06142A;
+    border-radius: 5px;
+    color: #3e8acc;
+    border: solid 1px #CC145A;
+}
+
+.btn-line-rosa:hover {
+    background-color: #06142A;
+    border-radius: 5px;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+
+/* TABLA COTIZAR */
+
+.tx-tables {
+    font-size: 10px;
+    color: white
+}
+
+.pop-rosa {
+    background-color: #E41460;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.banner-ofertas {
+    background-image: url(../img/banner-oferta.jpg);
+    min-height: 300px;
+    background-size: cover;
+}
+
+.tt-ofertas {
+    color: white;
+    padding: 25px;
+}
+
+.float-inv {
+    position: absolute;
+    right: 35px;
+    float: right;
+}
+
+.btn-especial {
+    background-color: #DC2980;
+    color: #fff;
+}
+
+.btn-especial:hover {
+    background-color: #DC2980;
+    color: #fff;
+}
+
+.nav-item {
+    color: #fff !important
+}
+
+.form-control {
+    background-color: #112b4a;
+    color: #fff;
+    border: none !important;
+}
+
+.form-control::placeholder {
+    background-color: #112b4a;
+    color: #fff;
+    border: none !important;
+}
+
+.form-control:focus {
+    background-color: #112b4a !important;
+    color: #fff;
+    border: none !important;
+}
+
+.btn-azul {
+    margin-top: 15px;
+    background-color: #06142A;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-azul:hover {
+    background-color: #06142A;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* AJUSTE SWAL ALERT COLORES BESALCO  */
+
+.swal-overlay--show-modal .swal-modal {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #112b4a !important;
+    color: #fff !important;
+}
+
+.swal-icon--success:before {
+    background-color: #112b4a !important;
+}
+
+.swal-icon--success:after {
+    background-color: #112b4a !important;
+}
+
+.swal-icon--success__hide-corners {
+    background-color: #112b4a !important;
+}
+
+.swal-title {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
+}
+
+.swal-text {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
+}
+
+.swal-button {
+    background-color: #e41460 !important;
+}
+
+.swal-button:hover {
+    background-color: #e41460 !important;
+}
+
+
+/* AJUSTE SWAL ALERT COLORES BESALCO  */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
